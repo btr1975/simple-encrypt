@@ -135,5 +135,3 @@ class EncryptDecrypt:
         fernet_object = Fernet(self.encryption_key)
 
         return json.loads((fernet_object.decrypt(encrypted_value).decode('utf-8')))
-
-
