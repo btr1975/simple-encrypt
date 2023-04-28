@@ -1,0 +1,14 @@
+# These are the libraries required develop or test your app
+# NOTICE THE FIRST LINE INCLUDES THE requirements.txt
+#
+-r requirements.txt
+build~=0.10.0
+tomli~=2.0.1
+pytest-cov~=4.0.0
+sphinx~=6.2.1
+pylint~=2.17.3
+rinohtype~=0.5.4
+myst-parser~=1.0.0
+sphinx_rtd_theme~=1.2.0
+sphinxcontrib-mermaid~=0.8.1
+twine~=4.0.2
